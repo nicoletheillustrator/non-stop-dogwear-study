@@ -1,0 +1,11 @@
+.--img-container {
+    width: 100%;
+    image-rendering: optimizeSpeed;
+   position: relative;
+}
+.--ad-card {
+    position: absolute;
+    z-index: 25;
+    padding-left: 25px;
+    margin-top: -200px;
+}
