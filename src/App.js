@@ -8,9 +8,21 @@ import AdSection from './components/AdSection';
 import HighlightCard from './components/HighlightCard';
 import hlData from "./data/hlData"
 import HighlightSection from './components/HighlightSection';
+import FeaturedProducts from './components/FeaturedProducts';
+import PData from './data/PData';
+import ProductData from './components/PCard';
 
 function App() {
 
+    const pdInput = PData.map(data =>{
+      return (
+        <ProductData 
+        data={data}
+        key={data.itemId}
+        
+        />
+      )
+    })
   const adInput =  adData.map(data => {
     return (
     <AdCard 
@@ -36,6 +48,7 @@ function App() {
       <Header logo={logo}/>
       <AdSection data={adInput}/>
       <HighlightSection data={highlightInput}/>
+      <FeaturedProducts data={pdInput}/>
     </div>
   );
 }

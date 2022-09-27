@@ -1,0 +1,52 @@
+//Colors for Non-Stop Dogwear Home
+$Background: #242424;
+$Orange: #FF3600;
+$Card-color: #0E0E0E;
+$Off-White: #EDFFFF;
+
+.fp-section {
+    margin-top: 80px;
+    width: 100%;
+    height: 800px;
+    // background-color: $Off-White;
+}
+
+#fp-t {
+    color: #0E0E0E;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0;
+  
+}
+.fp-container {
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    text-align: center;
+}
+.fp-slider-container {
+    color: black;
+    display: flex;
+    position: absolute;
+    transform: translateX();
+  
+    transition: 800ms;
+    margin: 0;
+   margin-left: 10px;
+}
+
+.item-img {
+    width: 200px;
+    text-align: center;
+    user-select: none;
+}
+
+.Pd-card {
+    background-color: white;
+    width: 260px;
+    height: 300px;
+    margin: 0 20px;
+    user-select: none;
+}

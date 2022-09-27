@@ -3,13 +3,7 @@ $Orange: #FF3600;
 $Card-color: #0E0E0E;
 $Off-White: #EDFFFF;
 
-.highlight {
-    position: absolute;
-    overflow: hidden;
-    min-width: 300px;
-    height: 300px; 
 
-}
 .highlight-wrapper{
     display: flex;
     justify-content: space-between;
@@ -19,21 +13,69 @@ $Off-White: #EDFFFF;
     right: 0px;
 }
 
-.card-wrapper { //inner slide
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-}
+
 .highlight-card {
     user-select: none;
     text-align: start;
     background-color: $Card-color;
     min-width: 280px;
-    padding: 20px 35px;
+    padding: 25px 35px;
     margin: 20px;
-
 }
 
 .highlight-t {
 margin-bottom: 35px;
+font-size: 28px;
 }
+.highlight-t::before {
+    content: "";
+    width: 5px;
+    height: 60px;
+    background-color: $Orange;
+    position: absolute;
+    user-select: none;
+    margin-left: -35px;
+}
+.highlight-d {
+    line-height: 160%;
+}
+
+.btn-indicator {
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    border-style: none;
+    margin: 4px;
+    cursor: pointer;
+    background-color: dimgray;
+  }
+  
+ 
+  .highlight-section {
+    position: relative;
+    width: 320px;
+    overflow: hidden;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+
+  .slider-container {
+    display: flex;
+    position: absolute;
+    transform: translateX();
+    transition: 800ms;
+  }
+
+
+
+  .indicator-slider {
+    text-align: center;
+  }
+
+  .item-img {
+    user-select: none;
+    pointer-events: none;
+  }
