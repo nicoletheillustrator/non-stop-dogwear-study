@@ -11,6 +11,9 @@ import HighlightSection from './components/HighlightSection';
 import FeaturedProducts from './components/FeaturedProducts';
 import PData from './data/PData';
 import ProductData from './components/PCard';
+import 'swiper/css';
+import "swiper/css/bundle";
+
 
 function App() {
 

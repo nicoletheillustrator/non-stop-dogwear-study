@@ -59,7 +59,7 @@ export default function HighlightSection(props) {
        }
     };
 
-console.log(currentIndex)
+
     
 function bt2() {
     if (currentIndex === 0 || 2) {
