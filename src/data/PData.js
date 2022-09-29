@@ -15,7 +15,7 @@ const PData = [
         itemId: 3,
         itemImg: "https://d7rh5s3nxmpy4.cloudfront.net/CMP2079/snc/bungee_leash_2019_1.jpg",
         itemName: "Bungee Leash",
-        itemPrice: "US$55.99 = US$60.99" ,
+        itemPrice: "US$55.99 - US$60.99" ,
     },
     {
         itemId: 4,

@@ -12,6 +12,11 @@ $Off-White: #EDFFFF;
     margin: 0 auto;
     color: black;
     padding: 25px;
+    transition: 200ms;
+}
+.pd-container:hover {
+    transform: scale(1.075);
+    transition: 400ms;
 }
 .fp-section {
     margin-top: 80px;
@@ -51,11 +56,14 @@ $Off-White: #EDFFFF;
 
 .swiper-pagination {
     bottom: 20px !important;
+  
 }
 
 .swiper-pagination-bullet{
 width: 14px !important;
 height: 14px !important;
+background-color: #0E0E0E !important;
+opacity: 1 !important;
 }
 
 
@@ -66,4 +74,5 @@ background-color: $Orange !important;
 
 .pd-section {
     height: 410px;
+    padding-top: 20px;
 }

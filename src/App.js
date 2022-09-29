@@ -13,9 +13,21 @@ import PData from './data/PData';
 import ProductData from './components/PCard';
 import 'swiper/css';
 import "swiper/css/bundle";
-
+import Activity from './components/ActivitySection';
+import activity from './data/activityData';
+import ActivityImage from './components/ActivityCard';
 
 function App() {
+
+    const activityInput = activity.map(data => {
+      return (
+        <ActivityImage 
+        data={data}
+        key={data.id}
+        />
+      )
+    })
+
 
     const pdInput = PData.map(data =>{
       return (
@@ -52,8 +64,11 @@ function App() {
       <AdSection data={adInput}/>
       <HighlightSection data={highlightInput}/>
       <FeaturedProducts data={pdInput}/>
+      <Activity data={activityInput}/>
     </div>
   );
 }
 
 export default App;
+
+//<HighlightSection data={highlightInput}/>

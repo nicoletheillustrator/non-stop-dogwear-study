@@ -99,7 +99,7 @@
 
 .highlight-section {
   position: relative;
-  width: 320px;
+  width: 300px;
   overflow: hidden;
   height: 300px;
   margin: 0 auto;
@@ -132,6 +132,12 @@
   margin: 0 auto;
   color: black;
   padding: 25px;
+  transition: 200ms;
+}
+
+.pd-container:hover {
+  transform: scale(1.075);
+  transition: 400ms;
 }
 
 .fp-section {
@@ -178,6 +184,8 @@
 .swiper-pagination-bullet {
   width: 14px !important;
   height: 14px !important;
+  background-color: #0E0E0E !important;
+  opacity: 1 !important;
 }
 
 .swiper-pagination-bullet-active {
@@ -186,6 +194,89 @@
 
 .pd-section {
   height: 410px;
+  padding-top: 20px;
+}
+
+.activity-section {
+  width: 100%;
+  height: 600px;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  margin-bottom: 75px;
+}
+
+.a-image-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(0.75);
+  transition-duration: 300ms;
+  max-height: 600px;
+}
+
+.a-image-container:hover {
+  filter: brightness(1);
+  transition-duration: 600ms;
+}
+
+.a-cont {
+  overflow: hidden;
+  width: 100%;
+}
+
+.a-title {
+  border: 1px solid white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #EDFFFF;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-auto-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 20px 20px;
+  grid-template-areas: "img1 img1" "img2 . " "img3 img3" "img4 img5" "img6 img6";
+  padding: 25px;
+}
+
+#img1 {
+  grid-area: img1;
+}
+
+#img2 {
+  grid-area: img2;
+}
+
+#img3 {
+  grid-area: img3;
+}
+
+#img4 {
+  grid-area: img4;
+}
+
+#img5 {
+  grid-area: img5;
+}
+
+#img6 {
+  grid-area: img6;
 }
 
 * {
