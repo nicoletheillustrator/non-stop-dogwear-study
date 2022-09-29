@@ -13,11 +13,25 @@ import PData from './data/PData';
 import ProductData from './components/PCard';
 import 'swiper/css';
 import "swiper/css/bundle";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 import Activity from './components/ActivitySection';
 import activity from './data/activityData';
 import ActivityImage from './components/ActivityCard';
+import Testimonials from './components/Testimonials';
+import tmData from './data/TmData';
+import TDataCard from './components/TCard';
 
 function App() {
+
+  const testimonialInput = tmData.map(data => {
+    return (
+
+      <TDataCard 
+      data = {data}
+      key = {data.id}
+      />
+    )
+  });
 
     const activityInput = activity.map(data => {
       return (
@@ -26,7 +40,7 @@ function App() {
         key={data.id}
         />
       )
-    })
+    });
 
 
     const pdInput = PData.map(data =>{
@@ -36,8 +50,9 @@ function App() {
         key={data.itemId}
         
         />
+        
       )
-    })
+    });
   const adInput =  adData.map(data => {
     return (
     <AdCard 
@@ -55,7 +70,7 @@ function App() {
       key={data.id}
       />
     )
-  })
+  });
 
   return (
     <div className="App">
@@ -65,6 +80,7 @@ function App() {
       <HighlightSection data={highlightInput}/>
       <FeaturedProducts data={pdInput}/>
       <Activity data={activityInput}/>
+      <Testimonials tdata={testimonialInput}/>
     </div>
   );
 }

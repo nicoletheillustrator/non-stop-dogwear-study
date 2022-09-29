@@ -4,6 +4,7 @@ const PData = [
         itemImg:"https://d7rh5s3nxmpy4.cloudfront.net/CMP2079/snc/trail_light_jacket_mens_1.jpg" ,
         itemName: "Trail Light Jacket Men",
         itemPrice: "US$384.99",
+        
     },
     {
         itemId: 2,

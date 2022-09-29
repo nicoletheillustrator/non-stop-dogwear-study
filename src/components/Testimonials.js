@@ -1,7 +1,11 @@
 import React from "react";
 
-export default function Testimonials() {
+export default function Testimonials(props) {
     return(
-<h1>testimona</h1>
+        <section className="testimonial-section">
+
+            {props.tdata}
+            
+        </section>
     )
 };
