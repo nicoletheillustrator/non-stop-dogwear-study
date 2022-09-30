@@ -20,7 +20,7 @@ export default function FeaturedProducts(props) {
             speed={800}
             allowTouchMove = {true}
             direction='horizontal'
-
+           
             slidesPerView={1}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}

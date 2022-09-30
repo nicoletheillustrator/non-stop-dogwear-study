@@ -6,11 +6,13 @@ export default function ActivityImage(props) {
         backgroundImage: `url(${props.data.img})`
     }
     return(
+      
         <div className="a-image-container" id={props.data.imgnumber} style={styles}>
             <div className="title-nest">
                 <p className="a-title">{props.data.name}</p>
             </div>
            
         </div>
+    
     )
 };
