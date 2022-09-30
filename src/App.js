@@ -20,8 +20,19 @@ import ActivityImage from './components/ActivityCard';
 import Testimonials from './components/Testimonials';
 import tmData from './data/TmData';
 import TDataCard from './components/TCard';
-
+import faqData from './data/faqData';
+import FaqCard from './components/faqCard';
+import FaqSection from './components/faqSection';
 function App() {
+
+ const faqInput = faqData.map(data => {
+  return (
+    <FaqCard
+    data = {data}
+    key = {data.id}
+    />
+  )
+ })
 
   const testimonialInput = tmData.map(data => {
     return (
@@ -81,6 +92,7 @@ function App() {
       <FeaturedProducts data={pdInput}/>
       <Activity data={activityInput}/>
       <Testimonials tdata={testimonialInput}/>
+      <FaqSection data={faqInput} />
     </div>
   );
 }

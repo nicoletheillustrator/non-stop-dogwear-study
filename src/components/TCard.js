@@ -1,5 +1,5 @@
 import React from "react";
-import { Swipe, SwiperSlide } from 'swiper/react';
+import {  SwiperSlide } from 'swiper/react';
 export default function TDataCard(props) {
 
     const styles = {
