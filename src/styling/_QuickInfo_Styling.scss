@@ -1,0 +1,30 @@
+//Colors for Non-Stop Dogwear Home
+$Background: #242424;
+$Orange: #FF3600;
+$Card-color: #0E0E0E;
+$Off-White: #EDFFFF;
+
+.quick-info {
+    background-color: black;
+    width: 100%;
+}
+
+.info-container {
+    text-align: center;
+    
+}
+.quick-info .info {
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.quick-info .info i {
+    font-size: 50px;
+    color: rgb(50, 50, 50);
+    padding: 20px;
+}
+
+.quick-info .info h3 {
+    margin-bottom: 15px;
+}

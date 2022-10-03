@@ -1,0 +1,36 @@
+//Colors for Non-Stop Dogwear Home
+$Background: #242424;
+$Orange: #FF3600;
+$Card-color: #0E0E0E;
+$Off-White: #EDFFFF;
+
+.email-banner {
+    background-color: $Orange;
+    padding: 20px;
+    display: block;
+}
+.banner-t {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.banner-p {
+    margin-bottom: 15px;
+}
+
+.email-input {
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.email-btn {
+    color: white;
+    background-color: #891e00;
+    border: none;
+    padding: 10px;
+}
+.email-btn:hover {
+    color: #0E0E0E;
+}

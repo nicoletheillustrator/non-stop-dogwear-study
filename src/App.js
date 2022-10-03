@@ -23,6 +23,8 @@ import TDataCard from './components/TCard';
 import faqData from './data/faqData';
 import FaqCard from './components/faqCard';
 import FaqSection from './components/faqSection';
+import EmailBanner from './components/EmailBanner';
+import QuickInfo from './components/QuickInfo'
 function App() {
 
  const faqInput = faqData.map(data => {
@@ -93,6 +95,8 @@ function App() {
       <Activity data={activityInput}/>
       <Testimonials tdata={testimonialInput}/>
       <FaqSection data={faqInput} />
+      <EmailBanner />
+      <QuickInfo />
     </div>
   );
 }
