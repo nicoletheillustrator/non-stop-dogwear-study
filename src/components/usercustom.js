@@ -3,13 +3,17 @@ import React from "react";
 export default function UserCustomerization() {
     return(
         <div className="usc-wrapper">
-            <div >
-                <ul className="ul-drop-btn"> Language <i class="fa-solid fa-chevron-down"></i>
-                </ul>
-                <ul className="ul-drop-btn"> Country <i class="fa-solid fa-chevron-down"></i>
-                </ul>
+            <div className="dropdowns" >
+                 <select className="ul-drop-btn language-btn" name="country"><i class="fa-solid fa-chevron-down"></i>
+                <option>American English</option>
+                </select>
+               <br></br>
+               
+                <select className="ul-drop-btn country-btn" name="country"><i class="fa-solid fa-chevron-down"></i>
+                <option>United States of America</option>
+                </select>
             </div>
-            <div>
+            <div className="site-sug-wrap">
                 <h2>Follow Us</h2>
                 <i class="fa-brands fa-square-facebook"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-youtube"></i>
             </div>

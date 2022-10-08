@@ -445,11 +445,11 @@
   margin-bottom: 15px;
 }
 
-.show-list {
+.hide-list {
   display: none;
 }
 
-.hide-list {
+.show-list {
   display: block;
 }
 
@@ -457,6 +457,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 40px;
+  margin: 60px 0;
 }
 
 .ul-drop-btn {
@@ -464,6 +465,66 @@
   padding: 10px 20px;
   margin: 10px 0;
   border: solid rgb(156, 156, 156) 1px;
+  color: rgb(137, 137, 137);
+}
+
+.country-btn {
+  max-width: 180px;
+  font-size: 10px;
+}
+
+.language-btn {
+  max-width: 120px;
+  font-size: 10px;
+}
+
+.site-sug-wrap {
+  margin-top: 20px;
+}
+
+.site-sug-wrap .fa-brands {
+  margin: 5px;
+  font-size: 30px;
+}
+
+.footer-section {
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.footer-ul {
+  padding: 10px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.footer-wrapper li {
+  list-style: none;
+  text-transform: none;
+  padding: 10px 0px;
+  font-size: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.fa-play {
+  padding: 0 10px;
+  rotate: 0;
+}
+
+.last {
+  float: right;
+}
+
+.down-arrow {
+  rotate: 90deg;
 }
 
 * {
