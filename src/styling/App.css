@@ -445,6 +445,27 @@
   margin-bottom: 15px;
 }
 
+.show-list {
+  display: none;
+}
+
+.hide-list {
+  display: block;
+}
+
+.usc-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.ul-drop-btn {
+  background-color: black;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: solid rgb(156, 156, 156) 1px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

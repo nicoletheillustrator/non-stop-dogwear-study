@@ -25,6 +25,8 @@ import FaqCard from './components/faqCard';
 import FaqSection from './components/faqSection';
 import EmailBanner from './components/EmailBanner';
 import QuickInfo from './components/QuickInfo'
+import Footer from './components/footer';
+import UserCustomerization from './components/usercustom';
 function App() {
 
  const faqInput = faqData.map(data => {
@@ -97,6 +99,8 @@ function App() {
       <FaqSection data={faqInput} />
       <EmailBanner />
       <QuickInfo />
+      <Footer />
+      <UserCustomerization />
     </div>
   );
 }
