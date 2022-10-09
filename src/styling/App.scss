@@ -13,6 +13,8 @@ $Off-White: #EDFFFF;
 @import './EmailBanner_Styling';
 @import './QuickInfo_Styling';
 @import './Footer_Styling';
+@import './NavMenu_Styling';
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -51,10 +53,10 @@ html {
     margin-right: 20px;
 }
 .--icon-bag {
-font-size: 22px;
+font-size: 30px;
 }
 
 .--icon-open {
-    font-size: 22px;
-    color: $Card-color;
+    font-size: 30px;
+    color: $Orange;
 }

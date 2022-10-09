@@ -489,6 +489,7 @@
 
 .footer-section {
   padding-left: 20px;
+  padding-right: 20px;
   margin: 20px 0;
 }
 
@@ -501,6 +502,7 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  color: rgb(114, 114, 114);
 }
 
 .footer-wrapper li {
@@ -512,11 +514,13 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  color: white;
 }
 
 .fa-play {
   padding: 0 10px;
   rotate: 0;
+  color: rgb(114, 114, 114);
 }
 
 .last {
@@ -525,6 +529,19 @@
 
 .down-arrow {
   rotate: 90deg;
+}
+
+.nav-wrapper {
+  position: fixed;
+  z-index: 99;
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  height: 100vh;
+  right: 100%;
+}
+
+.open-nav {
+  right: 0;
 }
 
 * {
@@ -570,10 +587,10 @@ html {
 }
 
 .--icon-bag {
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .--icon-open {
-  font-size: 22px;
-  color: #0E0E0E;
+  font-size: 30px;
+  color: #FF3600;
 }/*# sourceMappingURL=App.css.map */

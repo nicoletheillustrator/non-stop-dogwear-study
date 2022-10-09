@@ -1,4 +1,5 @@
 import React from 'react'
+import NavMenu from './navigationMenu'
 
 export default function Header(props) {
     return (
@@ -7,9 +8,10 @@ export default function Header(props) {
             <img src={props.logo} id='--logo' alt='img'></img>
             <div className='--user-action-wrapper'>
             <i className="fa-solid fa-bag-shopping --icon-bag"></i>
-            <i class="fa-solid fa-bars --icon-open"></i>
+            <i class="fa-solid fa-bars --icon-open" ></i>
             </div>
         </div>
+        <NavMenu />
         </section>
     )
 }

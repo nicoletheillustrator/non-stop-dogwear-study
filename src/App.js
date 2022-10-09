@@ -90,7 +90,7 @@ function App() {
   return (
     <div className="App">
       <UpdateTop />
-      <Header logo={logo}/>
+      <Header logo={logo}/>  
       <AdSection data={adInput}/>
       <HighlightSection data={highlightInput}/>
       <FeaturedProducts data={pdInput}/>
