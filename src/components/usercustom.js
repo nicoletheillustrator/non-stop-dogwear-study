@@ -4,12 +4,12 @@ export default function UserCustomerization() {
     return(
         <div className="usc-wrapper">
             <div className="dropdowns" >
-                 <select className="ul-drop-btn language-btn" name="country"><i class="fa-solid fa-chevron-down"></i>
+                 <select className="ul-drop-btn language-btn" name="country">
                 <option>American English</option>
                 </select>
                <br></br>
                
-                <select className="ul-drop-btn country-btn" name="country"><i class="fa-solid fa-chevron-down"></i>
+                <select className="ul-drop-btn country-btn" name="country">
                 <option>United States of America</option>
                 </select>
             </div>
